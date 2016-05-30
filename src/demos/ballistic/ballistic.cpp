@@ -56,7 +56,7 @@ class BallisticDemo : public Application
             glPushMatrix();
             glTranslatef(position.x, 0, position.z);
             glScalef(1.0f, 0.1f, 1.0f);
-            glutSolidSphere(0.6f, 5, 4);
+            glutSolidSphere(5.9f, 5, 4);
             glPopMatrix();
         }
     };
